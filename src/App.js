@@ -1,9 +1,16 @@
-import './App.css';
+import './App.scss';
+import { Navbar } from './components';
+import { Conversations, Footer, Grow, Header, Users } from './container';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Navbar />
+      <Header />
+      <Grow />
+      <Conversations />
+      <Users />
+      <Footer />
     </div>
   );
 }

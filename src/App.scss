@@ -1,0 +1,15 @@
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-text {
+  font-family: var(--body-font);
+  font-weight: 400;
+}
+
+.heading-text {
+  font-family: var(--heading-font);
+  font-weight: 700;
+}

@@ -14,7 +14,7 @@ const Header = () => {
       </p>
       <a
         href="#"
-        type="_blank"
+        target="_blank"
         rel="noopener noreferrer"
         className="app__flex p-text header__cta"
       >

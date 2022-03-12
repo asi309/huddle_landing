@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="app__navbar-cta">
         <a
           href="#"
-          type="_blank"
+          target="_blank"
           rel="noopener noreferrer"
           className="app__flex p-text"
         >

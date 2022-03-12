@@ -19,7 +19,7 @@ const Footer = () => {
         </h1>
         <a
           href="#"
-          type="_blank"
+          target="_blank"
           rel="noopener noreferrer"
           className="app__flex p-text app__footer-cta-btn"
         >
@@ -72,6 +72,7 @@ const Footer = () => {
               <input
                 type="email"
                 value={email}
+                label="email"
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button type="button">Subscribe</button>

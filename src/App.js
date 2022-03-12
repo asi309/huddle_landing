@@ -7,9 +7,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <Grow />
-      <Conversations />
-      <Users />
+      <main>
+        <Grow />
+        <Conversations />
+        <Users />
+      </main>
       <Footer />
     </div>
   );

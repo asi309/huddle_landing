@@ -166,6 +166,10 @@
 
       justify-content: space-between;
 
+      label {
+        width: 60%;
+      }
+
       input {
         height: 45px;
 
@@ -173,7 +177,7 @@
         border: none;
         border-radius: 5px;
 
-        width: 60%;
+        width: 100%;
         font-size: 18px;
         font-family: var(--body-font);
 
@@ -273,6 +277,10 @@
         .newsletter-form {
           flex-direction: column;
           align-items: flex-end;
+
+          label {
+            width: 100%;
+          }
 
           input {
             width: 100%;

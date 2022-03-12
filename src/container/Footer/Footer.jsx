@@ -69,12 +69,13 @@ const Footer = () => {
               address
             </p>
             <form className="newsletter-form app__flex">
-              <input
-                type="email"
-                value={email}
-                label="email"
-                onChange={(e) => setEmail(e.target.value)}
-              />
+              <label>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </label>
               <button type="button">Subscribe</button>
             </form>
           </div>

@@ -30,6 +30,9 @@ const Footer = () => {
         <div className="top">
           <img src={images.footerTopDesktop} alt="background-shapes" />
         </div>
+        <div className="top-small">
+          <img src={images.footerTopMobile} alt="background-shapes" />
+        </div>
         <div className="app__footer-content app__flex">
           <div className="app__footer-social app__flex">
             <div className="logo">

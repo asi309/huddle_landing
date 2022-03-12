@@ -24,6 +24,9 @@ const Grow = () => {
         <div className="top">
           <img src={images.sectionTop1} alt="background-shapes" />
         </div>
+        <div className="top-small">
+          <img src={images.sectionTop1Mobile} alt="background-shapes" />
+        </div>
         <div className="app__grow-content app__flex">
           <div className="app__grow-content-text app__flex">
             <h2 className="heading-text">Grow Together</h2>
@@ -39,6 +42,9 @@ const Grow = () => {
         </div>
         <div className="bottom">
           <img src={images.sectionBottom1} alt="background-shapes" />
+        </div>
+        <div className="bottom-small">
+          <img src={images.sectionBottom1Mobile} alt="background-shapes" />
         </div>
       </section>
     </section>

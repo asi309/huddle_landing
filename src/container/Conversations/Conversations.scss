@@ -38,3 +38,42 @@
     }
   }
 }
+
+@media screen and (max-width: 610px) {
+  .app__conversations {
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    margin: 0;
+
+    .app__conversations-image,
+    .app__conversations-text {
+      margin: 0;
+      margin-top: 50px;
+
+      width: 80%;
+    }
+
+    .app__conversations-text {
+      align-items: center;
+
+      margin-top: 60px;
+      margin-bottom: 20px;
+      width: 100%;
+
+      h2 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+
+        text-align: center;
+      }
+    }
+  }
+}

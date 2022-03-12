@@ -7,6 +7,9 @@ const Users = () => {
       <div className="top">
         <img src={images.sectionTop2} alt="background-shapes" />
       </div>
+      <div className="top-small">
+        <img src={images.sectionTop2Mobile} alt="background-shapes" />
+      </div>
       <div className="app__users-content app__flex">
         <div className="app__users-content-text app__flex">
           <h2 className="heading-text">Your Users</h2>
@@ -22,6 +25,9 @@ const Users = () => {
       </div>
       <div className="bottom">
         <img src={images.sectionBottom2} alt="background-shapes" />
+      </div>
+      <div className="bottom-small">
+        <img src={images.sectionBottom2Mobile} alt="background-shapes" />
       </div>
     </section>
   );

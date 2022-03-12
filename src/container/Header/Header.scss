@@ -56,3 +56,42 @@
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 610px) {
+  .app__header {
+    margin: 20px;
+
+    padding-top: 10vh;
+  }
+
+  .app__header-title {
+    font-size: 28px;
+    line-height: 42px;
+
+    text-align: center;
+
+    margin-bottom: 24px;
+  }
+
+  .app__header-text {
+    max-width: 100%;
+
+    font-size: 16px;
+    line-height: 26px;
+
+    margin-bottom: 40px;
+  }
+
+  .header__cta {
+    font-size: 16px;
+    line-height: 20px;
+
+    width: 84%;
+    padding: 18px 0;
+    margin-bottom: 80px;
+  }
+
+  .app__header-image {
+    width: 95%;
+  }
+}

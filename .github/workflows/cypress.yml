@@ -31,7 +31,7 @@ jobs:
   ui-chrome-tests:
     timeout-minutes: 5
     runs-on: ubuntu-latest
-    containers: cypress/browsers:node14.17.0-chrome88-ff89
+    container: cypress/browsers:node14.17.0-chrome88-ff89
     needs: install
     strategy:
       fail-fast: false

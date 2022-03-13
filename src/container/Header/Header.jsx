@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="app__header app__flex">
       <h1 className="app__header-title heading-text">
-        Build The Comminity Your Fans will Love
+        Build The Community Your Fans will Love
       </h1>
       <p className="app__header-text p-text">
         Huddle re-imagines the way we build communities. You have a voice, but

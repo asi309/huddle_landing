@@ -19,7 +19,7 @@ jobs:
         
       - run: yarn cypress info
       - run: node -p 'os.cpus()'
-      - run: yarn build
+      - run: CI=false yarn build
       
       - name: Save build folder
         uses: actions/upload-artifact@v2
